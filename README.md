@@ -21,5 +21,5 @@ You will be evaluated both on the score of the model on the test set as well as 
 
 ##  Delivering
 
-You are welcome to reply to the email you will get from Orsted HR with a link to a GitHub or GitLab repo containing your code. Please include any dependencies in the *requirements.txt* file of your package. Please do not push to this repository, unless you want the other candidates to be able to look at your code!
+You are welcome to reply to the email you will get from Orsted HR with a link to a GitHub or GitLab repo containing your code, Cc edsim@orsted.dk. Please include any dependencies in the *requirements.txt* file of your package. Please do not push to this repository, unless you want the other candidates to be able to look at your code!
 The whole excercise should not take you a lot more than two to three hours. 
