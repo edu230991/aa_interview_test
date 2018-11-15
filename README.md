@@ -1,8 +1,8 @@
-# Coding Excercise
+# Coding Exercise
 
 ## Introduction
 
-The following excercise will try to quickly assess your timeseries modelling and data science skills.
+The following exercise will try to quickly assess your timeseries modelling and data science skills.
 You are provided with two pickle files, *train.pkl* and *test.pkl*. The names should be pretty self-explanatory.
 
 *train.pkl* is a time-indexed pandas dataframe with two columns, "temperature" and "load". Units are degrees C and kWh respectively. Column "load" is a timeseries representing consumption of gas in a specific location in UK. Column "temperature" contains temperature measurements for the same location. *test.pkl* only contains the temperature column. 
@@ -26,4 +26,4 @@ You will be evaluated on:
 ##  Delivering
 
 You are welcome to reply to the email you will get from Orsted HR with a link to a GitHub or GitLab repo containing your code, Cc edsim@orsted.dk. Please include any dependencies in the *requirements.txt* file of your package. Please do not push to this repository, unless you want the other candidates to be able to look at your code!
-The whole excercise should not take you a lot more than two to three hours. 
+The whole exercise should not take you a lot more than two to three hours. 
