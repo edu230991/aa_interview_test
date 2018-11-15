@@ -5,14 +5,14 @@
 The following excercise will try to quickly assess your timeseries modelling and data science skills.
 You are provided with two pickle files, *train.pkl* and *test.pkl*. The names should be pretty self-explanatory.
 
-*train.pkl* is a time-indexed pandas dataframe with two columns, "temperature" and "load". Units are degrees C and kWh respectively. Column "load" is a timeseries representing consumption of gas in a specific location in UK. Column "temperature" contains temperature measurements for the same location. *test.pkl* only contains the temperature column.
+*train.pkl* is a time-indexed pandas dataframe with two columns, "temperature" and "load". Units are degrees C and kWh respectively. Column "load" is a timeseries representing consumption of gas in a specific location in UK. Column "temperature" contains temperature measurements for the same location. *test.pkl* only contains the temperature column. 
 
 ## Task
 
 Your goal is to create an installable python package to forecast the load as a function of the datetime and temperature. 
 The package should contain a class called *Model* with an sklearn-style API (at least *fit*, *predict* and *score* methods).
 
-There are no limitations in terms of modelling techniques or extra data you might want to include. 
+There are no limitations in terms of modelling techniques or extra data you might want to include. Feel free to do any type of feature engineering or apply any algorithm as long as your results are reproducible.
 You are welcome to use part of the training set to tune your model.
 If the training of the model takes more than 20 minutes on a normal laptop please make sure to include a method in the class to quickly load the trained model (e.g. by pickling it and adding it to the package).
 
