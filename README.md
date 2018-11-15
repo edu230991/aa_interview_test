@@ -11,7 +11,7 @@ You are provided with two pickle files, *train.pkl* and *test.pkl*. The names sh
 
 Your goal is to create an installable python package to forecast the load as a function of the datetime and temperature. 
 The package should contain a class called *Model* with an sklearn-style API (at least *fit*, *predict* and *score* methods).
-By installable we mean that we should be able to install your package by running e.g. *pip install -e git+https://github.com/user/repo.git@branch*.
+By installable we mean that we should be able to install your package by running e.g. ```pip install -e git+https://github.com/user/repo.git@branch```
 
 There are no limitations in terms of modelling techniques or extra data you might want to include. Feel free to do any type of feature engineering or apply any algorithm as long as your results are reproducible. If you do incorporate extra data, please include the code for that in the package even if the extra features end up giving no value. Similarly, if you try several estimators, please do include them in the class. We will discuss the feature engineering and model creation process at the interview. 
 
